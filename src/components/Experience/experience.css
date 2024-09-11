@@ -1,0 +1,42 @@
+
+
+section.experience {
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    padding-top: 150px;
+    
+
+}
+
+.experience  {
+
+    
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+.experience-color {
+
+    color: #05C9FF;
+
+}
+
+.experience-text {
+
+    margin-top: 180px
+}
+
+.experience-text p {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+    white-space: pre-line;
+}
