@@ -28,7 +28,7 @@ export const projects = [
         id: 3,
         name: "PLAZE",
         description: 
-        `Plaze é uma plataforma fictícia de apostas online desenvolvida com React.
+        `Plaze é uma plataforma fictícia de apostas online desenvolvida com Vue.
          O projeto oferece uma experiência de usuário interativa e envolvente,
          com um sistema de login e registro e um chat de bot para auxiliar os usuários.
          `,

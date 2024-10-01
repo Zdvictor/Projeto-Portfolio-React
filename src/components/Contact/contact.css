@@ -63,6 +63,7 @@ section.contact {
     font-size: 15px;
     color: black;
     resize: none;
+    outline: none;
 
 
 }
