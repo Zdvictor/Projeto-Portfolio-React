@@ -122,7 +122,7 @@ setValueOpen(id)
                                             !openDescription && (
                                                 <>
                                                 <FaRegFolder style={{minWidth: 50}}  size={50} color=""/>
-                                                <li>{project.name}</li>                                                
+                                                <li style={{minWidth: 50}}>{project.name}</li>                                                
                                                 </>
                                             )
                                         }

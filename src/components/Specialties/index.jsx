@@ -4,18 +4,16 @@ import front from "../../assets/foto-front.png"
 import back from "../../assets/foto-back.png"
 import "./specialties.css"
 
-
 export default function Specialties() {
     const [showAnimation, setShowAnimation] = useState(false)
-    const {id, setId} = useContext(ScrollContext)
+    const { id, setId } = useContext(ScrollContext)
     const elementRef = useRef(null)
 
-    useEffect( () => {
+    useEffect(() => {
         const observer = new IntersectionObserver((observe) => {
             const isEntered = observe[0].isIntersecting
             setShowAnimation(isEntered)
             console.log(id)
-            
         })
 
         observer.observe(elementRef.current)
@@ -25,26 +23,17 @@ export default function Specialties() {
         }
     }, [])
 
-
-    useEffect( () => {
-    
-        console.log(id)
-        if(id !== null) {
-
-            if(id === 2) {
-
-                setShowAnimation(true)
-                setTimeout(() => {elementRef.current.scrollIntoView({behavior: "smooth"})}, 200)
-                
-            }
-
+    useEffect(() => {
+        if (id !== null && id === 2) {
+            setShowAnimation(true)
+            setTimeout(() => {
+                elementRef.current.scrollIntoView({ behavior: "smooth" })
+            }, 200)
         }
-        
-
     }, [id])
 
     return (
-        <div className="container">
+        <div className="container-1">
             <section ref={elementRef} className="specialties">
                 <h2 className="specialties">
                     MINHAS <span className="specialties-color">ESPECIALIDADES</span>
@@ -56,9 +45,7 @@ export default function Specialties() {
                         <img src={back} alt="foto-back-end" className="img-2" />
                     </article>
                 )}
-                
             </section>
-            
         </div>
     )
 }

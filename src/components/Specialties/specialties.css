@@ -1,12 +1,15 @@
 
 
 section.specialties {
-
+    
+    width: 100%;
+    height: auto;
     padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
     
 
 
@@ -101,5 +104,25 @@ article.specialties-images {
     
     }
     
+
+}
+
+@media(max-height: 890px) {
+
+    section.specialties {
+
+        padding-top: 200px;
+
+    }
+
+}
+
+@media(max-height: 700px) {
+
+    section.specialties {
+
+        padding-top: 400px;
+
+    }
 
 }

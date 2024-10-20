@@ -9,7 +9,7 @@ section.experience {
     align-items: center;
     flex-direction: column;
     margin-top: 300px;
-    padding-top: 150px;
+    padding-top: 0;
     
 
 }
@@ -40,3 +40,4 @@ section.experience {
     line-height: 25px;
     white-space: pre-line;
 }
+

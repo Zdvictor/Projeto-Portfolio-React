@@ -12,8 +12,8 @@ export default function Experience() {
 
     const [text] = useTypewriter({
         words: [
-          `Atualmente, estou trabalhando como freelancer há 4 meses e utilizo as seguintes tecnologias: \n
-          Front-end: HTML, CSS, JavaScript, React.js, Angular, Vue, Figma \n
+          `Atualmente, estou trabalhando como freelancer há 5 meses e utilizo as seguintes tecnologias: \n
+          Front-end: HTML, CSS, JavaScript, React.js, Next.js, Vue, Figma \n
           Back-end: Node.js, Express, NestJS, Fastify, MySQL, MongoDB, Jest`,
         ],
       });
