@@ -1,3 +1,7 @@
+Acesse meu Projeto: https://portfolio-zdvictor.netlify.app
+
+By Zdvictor with only HTML, CSS, JS, React + EmailsJS
+
 🚀 Portfolio <br />
 
 O Portfolio é um galeria pessoal que apresenta projetos desenvolvidos ao longo da minha trajetória como desenvolvedor. O objetivo é exibir de forma clara e atraente as minhas experiências e conquistas no desenvolvimento web. <br />
