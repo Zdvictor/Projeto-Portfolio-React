@@ -13,17 +13,13 @@
 
 
 body {
+    
     font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Impede o scroll horizontal no body */
-    overflow-y: auto; /* Permite scroll vertical */
+    overflow-x: hidden; 
+    overflow-y: auto; 
 }
 
 
-.container {
-
-    height: 76vh;
-
-}
 
 a {
 

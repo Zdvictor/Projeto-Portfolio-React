@@ -1,43 +1,29 @@
-
-
+/* Seção de experiência */
 section.experience {
-
     width: 90%;
-    margin: 0 auto;
+    margin: 200PX auto 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 300px;
-    padding-top: 0;
-    
-
+    padding-top: 0; /* Desnecessário, já que o valor padrão é 0 */
 }
 
-.experience  {
-
-    
+.experience {
     font-size: 30px;
     text-align: center;
-    
-
 }
 
 .experience-color {
-
     color: #05C9FF;
-
 }
 
 .experience-text {
-
-    margin-top: 180px
+    margin-top: 180px;
 }
 
 .experience-text p {
-    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 25px;
     white-space: pre-line;
 }
-

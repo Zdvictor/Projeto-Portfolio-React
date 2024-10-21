@@ -1,14 +1,19 @@
-import { useEffect, useRef, useState, useContext } from "react";
-import {useTypewriter} from "react-simple-typewriter"
-import { ScrollContext } from "../../contex/scrollContext";
-import "./experience.css"
+import { useRef, } from "react";
 
+//TYPEWRITER
+import {useTypewriter} from "react-simple-typewriter"
+
+
+import Contact from "../Contact";
+
+//CSS
+import "./experience.css"
 
 
 export default function Experience() {
 
     const elementRef = useRef(null)
-    const { id, setId } = useContext(ScrollContext);
+
 
     const [text] = useTypewriter({
         words: [
@@ -20,27 +25,11 @@ export default function Experience() {
 
 
 
-    useEffect(() => {
-        
-        if(id !== null) {
-
-            if(id == 3) {
-               
-                setTimeout(() => {elementRef.current.scrollIntoView({behavior: "smooth"})}, 200)
-
-            }
-
-        }
-
-
-    }, [id])
-
-
       
 
     return (
 
-        <div className="container">
+        <div id="experiencia" className="container">
 
             <section ref={elementRef} className="experience">
 
@@ -56,6 +45,7 @@ export default function Experience() {
 
             </section>
 
+            <Contact />
         </div>
 
     )

@@ -26,14 +26,15 @@ export const projects = [
 
     {
         id: 3,
-        name: "PLAZE",
+        name: "FUTSCHOOL",
         description: 
-        `Plaze é uma plataforma fictícia de apostas online desenvolvida com Vue.
-         O projeto oferece uma experiência de usuário interativa e envolvente,
-         com um sistema de login e registro e um chat de bot para auxiliar os usuários.
+        `FutSchool é uma plataforma desenvolvida com Next.js, que permite a compra de planos de assinatura
+        —Basic, Advanced e Premium—para conteúdos exclusivos sobre futebol. Os usuários podem se inscrever facilmente e deixar seu e-mail para serem notificados quando as vagas estiverem esgotadas.
+        Com uma interface intuitiva e responsiva, o FutSchool oferece uma experiência de navegação fluida e envolvente.
          `,
-        href: "https://plaze.vercel.app"
+        href: "https://projeto-fut-school-next.vercel.app"
     },
+
 
     {
         id: 4,
@@ -44,6 +45,17 @@ export const projects = [
          recentes em lançamento, proporcionando uma experiência intuitiva e responsiva.
          `,
         href: "https://proj-flix-zd.netlify.app"
+    },
+
+    {
+        id: 5,
+        name: "PLAZE",
+        description: 
+        `Plaze é uma plataforma fictícia de apostas online desenvolvida com Vue.
+         O projeto oferece uma experiência de usuário interativa e envolvente,
+         com um sistema de login e registro e um chat de bot para auxiliar os usuários.
+         `,
+        href: "https://plaze.vercel.app"
     },
 
 
