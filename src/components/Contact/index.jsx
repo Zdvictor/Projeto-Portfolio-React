@@ -74,7 +74,7 @@ export default function Contact() {
                 <a href="https://wa.me/15991105703?text=Ol%C3%A1,%20tudo%20bem%3F" target="blank"><FaWhatsapp size={55} /></a>
                 <a href="http://github.com/Zdvictor" target="blank"><FaGithub size={53} /></a>
                 <a href="http://www.linkedin.com/in/zdvictor" target="blank"><CiLinkedin size={55} /></a>
-                <a href="http://docs.google.com/document/d/1u0i5uuISbKGj3HUce57nSWtd1pZeT7I6" target="blank"><PiReadCvLogo size={50} /></a>
+                <a href="https://docs.google.com/document/d/1-1DDi8JuEb2JY_6SBvj9Id7TF8FmHrO-/edit?usp=drivesdk&ouid=111798822029357599905&rtpof=true&sd=true" target="blank"><PiReadCvLogo size={50} /></a>
             </figure>
                 <h2 className="contact-color">CONTATO</h2>
 
