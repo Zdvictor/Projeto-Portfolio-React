@@ -1,6 +1,6 @@
 Acesse meu Projeto: https://portfolio-zdvictor.netlify.app
 
-By Zdvictor with only HTML, CSS, JS, React + EmailsJS
+By Zdvictor with only HTML, Tailwind CSS, JS, React + EmailsJS
 
 🚀 Portfolio <br />
 
