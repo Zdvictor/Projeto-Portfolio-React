@@ -47,16 +47,6 @@ export const projects = [
         href: "https://proj-flix-zd.netlify.app"
     },
 
-    {
-        id: 5,
-        name: "PLAZE",
-        description: 
-        `Plaze é uma plataforma fictícia de apostas online desenvolvida com Vue.
-         O projeto oferece uma experiência de usuário interativa e envolvente,
-         com um sistema de login e registro e um chat de bot para auxiliar os usuários.
-         `,
-        href: "https://plaze.vercel.app"
-    },
 
 
     

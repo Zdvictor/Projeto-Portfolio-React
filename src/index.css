@@ -1,4 +1,26 @@
-* {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+    @apply bg-neutral-900 text-white
+
+}
+
+input,  textarea {
+
+    @apply px-4 py-3 rounded-md text-lg text-black outline-none
+
+}
+
+p.errors {
+
+    @apply text-white
+
+}
+
+/* * {
 
     margin: 0;
     padding: 0;
@@ -9,42 +31,4 @@
     
     
 }
-
-
-
-body {
-    
-    font-family: Arial, sans-serif;
-    overflow-x: hidden; 
-    overflow-y: auto; 
-}
-
-
-
-a {
-
-    text-decoration: none;
-
-}
-
-input {
-
-    border: 0;
-    outline: none;
-
-}
-
-
-ul {
-
-    list-style: none;
-
-}
-
-button {
-
-    border: 0;
-    cursor: pointer;
-
-}
-
+ */
