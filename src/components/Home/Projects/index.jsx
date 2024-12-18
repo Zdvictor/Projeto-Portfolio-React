@@ -14,6 +14,19 @@ export const projects = [
 
     {
         id: 2,
+        name: 'GESTÃO DE DOCUMENTOS TAUGOR',
+        description: 
+        `Sistema de Gestão de Documentos e uma plataforma desenvolvida para manipulação de documentos. Foi um
+         Desafio proposto para uma vaga na Taugor. O sistema permite ao administrador cadastrar,
+         atualizar e excluir registros de funcionários, gerando PDFs automáticos e mantendo histórico de alterações.
+         Feito com React.js, Firebase (Firestore, Storage e Authentication) e JSPDF, oferece controle total ao administrador
+         e acesso dos funcionários por link de e-mail.   
+         `,
+        href: "https://desafio-gestao-react.vercel.app/"
+    },
+
+    {
+        id: 3,
         name: "BANK CENTER",
         description: 
         `BankCenter é uma aplicação bancária completa desenvolvida com React e Firebase.
@@ -25,7 +38,7 @@ export const projects = [
 
 
     {
-        id: 3,
+        id: 4,
         name: "FUTSCHOOL",
         description: 
         `FutSchool é uma plataforma desenvolvida com Next.js, que permite a compra de planos de assinatura
@@ -36,16 +49,8 @@ export const projects = [
     },
 
 
-    {
-        id: 4,
-        name: "STREAMFLIX",
-        description: 
-        `StreamFlix é uma aplicação de Catálogos de filmes desenvolvida com React.
-         Este projeto oferece aos usuários uma visão completa dos filmes mais
-         recentes em lançamento, proporcionando uma experiência intuitiva e responsiva.
-         `,
-        href: "https://proj-flix-zd.netlify.app"
-    },
+
+
 
 
 
