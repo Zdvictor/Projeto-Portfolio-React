@@ -54,7 +54,7 @@ export default function Home() {
     const socialLinks = [
         { icon: FaGithub, href: "https://github.com/Zdvictor" },
         { icon: FaLinkedin, href: "http://www.linkedin.com/in/zdvictor" },
-        { icon: SiGmail, href: "mailto:victoralmeida.0216@gmail.com" }
+        { icon: SiGmail, href: "https://mail.google.com/mail/?view=cm&fs=1&to=victor.zaidir@gmail.com" }
     ];
 
     return (
