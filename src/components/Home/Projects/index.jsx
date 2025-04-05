@@ -41,9 +41,9 @@ export const projects = [
         id: 4,
         name: "FUTSCHOOL",
         description: 
-        `FutSchool é uma plataforma desenvolvida com Next.js, que permite a compra de planos de assinatura
-        —Basic, Advanced e Premium—para conteúdos exclusivos sobre futebol. Os usuários podem se inscrever facilmente e deixar seu e-mail para serem notificados quando as vagas estiverem esgotadas.
-        Com uma interface intuitiva e responsiva, o FutSchool oferece uma experiência de navegação fluida e envolvente.
+        `FutSchool é uma plataforma de matrícula online desenvolvida com Next.js e TypeScript,
+         voltada para atletas que desejam evoluir no futebol. O sistema permite que os usuários escolham um plano de treino,
+         realizem o pagamento com Stripe e recebam confirmação por e-mail — tudo em uma interface moderna e responsiva.
          `,
         href: "https://projeto-fut-school-next.vercel.app"
     },
