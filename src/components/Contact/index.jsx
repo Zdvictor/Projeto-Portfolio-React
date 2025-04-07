@@ -84,7 +84,7 @@ export default function Contact() {
     }
 
     return (
-        <div id="contato" className="container mx-auto mt-32 p-5">
+        <div id="contato" className="container mx-auto mt-32 p-5 overflow-x-hidden scrollbar-hide">
             <motion.section
                 ref={ref}
                 initial="hidden"

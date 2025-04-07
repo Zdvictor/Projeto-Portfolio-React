@@ -28,7 +28,7 @@ export default function Specialties() {
     ];
 
     return (
-        <div id="especialidades" className="container mx-auto mt-32 p-5 scrollbar-hide">
+        <div id="especialidades" className="container mx-auto mt-32 p-5 overflow-x-hidden scrollbar-hide">
             <motion.section
                 ref={ref}
                 initial="hidden"
